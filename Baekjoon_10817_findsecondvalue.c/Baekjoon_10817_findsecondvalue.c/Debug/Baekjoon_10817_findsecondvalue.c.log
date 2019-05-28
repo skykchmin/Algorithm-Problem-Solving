@@ -1,0 +1,4 @@
+﻿  main.c
+c:\users\skykc\source\repos\baekjoon_10817_findsecondvalue.c\baekjoon_10817_findsecondvalue.c\main.c(22): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\skykc\source\repos\baekjoon_10817_findsecondvalue.c\baekjoon_10817_findsecondvalue.c\main.c(24): warning C4098: 'main': 'void' 함수에서 값을 반환하고 있습니다.
+  Baekjoon_10817_findsecondvalue.c.vcxproj -> C:\Users\skykc\source\repos\Baekjoon_10817_findsecondvalue.c\Debug\Baekjoon_10817_findsecondvalue.c.exe
