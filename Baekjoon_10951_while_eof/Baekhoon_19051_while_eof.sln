@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Baekhoon_19051_while_eof", "Baekhoon_19051_while_eof\Baekhoon_19051_while_eof.vcxproj", "{7CEF3DE8-0334-4BA7-B37F-86805ED01BAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CEF3DE8-0334-4BA7-B37F-86805ED01BAD}.Debug|x64.ActiveCfg = Debug|x64
+		{7CEF3DE8-0334-4BA7-B37F-86805ED01BAD}.Debug|x64.Build.0 = Debug|x64
+		{7CEF3DE8-0334-4BA7-B37F-86805ED01BAD}.Debug|x86.ActiveCfg = Debug|Win32
+		{7CEF3DE8-0334-4BA7-B37F-86805ED01BAD}.Debug|x86.Build.0 = Debug|Win32
+		{7CEF3DE8-0334-4BA7-B37F-86805ED01BAD}.Release|x64.ActiveCfg = Release|x64
+		{7CEF3DE8-0334-4BA7-B37F-86805ED01BAD}.Release|x64.Build.0 = Release|x64
+		{7CEF3DE8-0334-4BA7-B37F-86805ED01BAD}.Release|x86.ActiveCfg = Release|Win32
+		{7CEF3DE8-0334-4BA7-B37F-86805ED01BAD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4A39F28-F095-4668-85B7-D99182586355}
+	EndGlobalSection
+EndGlobal
