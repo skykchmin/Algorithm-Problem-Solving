@@ -1,6 +1,8 @@
 import itertools
 import operator
 
+
+
 def split_pairs(a):
     connection_character = itertools.chain(a, '_')
     return map(operator.add, connection_character, connection_character)
