@@ -15,3 +15,25 @@
 # 13 15 34 23 45 65 33 11 26 42
 # ▣ 출력예제 1
 # 143
+
+# /////////////////////
+# 2) 3개의 숫자를 뽑아 중복을 체크
+# 4) 중복된 수를 뽑지않게 반복문 추가 
+# 5) 리스트를 sort
+# ///////////
+
+n, k = map(int, input().split())
+a = list(map(int, input().split()))
+
+res=set() # 중복을 제거하는 자료구조 : set
+for i in range(0, n):
+    for j in range(i+1, n):
+        for m in range(j+1, n):
+            res.add(a[i] + a[j] + a[m]) #set은 append대신 add를 쓰고 
+
+res = list(res)
+res.sort(reverse=True)
+print(res[k-1])
+
+
+
