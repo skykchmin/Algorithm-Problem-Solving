@@ -17,7 +17,6 @@
 
 n = int(input())
 a = list(map(int, input().split())
-
 average = round(sum(a)/n)
 min = 2147000000
 
