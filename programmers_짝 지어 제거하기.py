@@ -12,4 +12,4 @@ def solution(s):
         return 0
     else:
          return 1       
-    return answer
+    
