@@ -22,6 +22,24 @@ public class Main {
         return result;
     }
 
+    public String solution3(String inputStr){
+        String answer = "";
+        for(char x : inputStr.toCharArray()){
+            if(Character.isLowerCase(x)) answer += Character.toUpperCase(x);
+            else answer += Character.toLowerCase(x);
+        }
+        return answer;
+    }
+
+    public String solution4(String inputStr){
+        String answer = "";
+        for(char x : inputStr.toCharArray()){
+            if(x>= 97 && x<= 122) answer +=(char)(x-32);
+            else answer +=(char)(x+32);
+        }
+        return answer;
+    }
+
     public String solution(String inputStr){
         StringBuilder resultBuilder = new StringBuilder();
 
