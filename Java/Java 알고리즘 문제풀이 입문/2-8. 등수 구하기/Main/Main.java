@@ -24,6 +24,19 @@ public class Main {
         return answers;
     }
 
+    public int[] solutionLecture(int n, int[] inputNumbers) {
+        int[] answer = new int[n];
+        for(int i = 0; i<n; i++){
+            int cnt = 1;
+            for(int j = 0; j < n; j++){
+                if(inputNumbers[j] > inputNumbers[i]) cnt++;
+            }
+            answer[i] = cnt;
+        }
+        return answer;
+    }
+
+
     public static void main(String[] args) {
         Main T = new Main();
         Scanner sc = new Scanner(System.in);
