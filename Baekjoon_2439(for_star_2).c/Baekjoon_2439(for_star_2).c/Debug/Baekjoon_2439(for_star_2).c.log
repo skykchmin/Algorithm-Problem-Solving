@@ -1,3 +1,0 @@
-﻿  main.c
-c:\users\skykc\source\repos\baekjoon_2439(for_star_2).c\baekjoon_2439(for_star_2).c\main.c(21): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  Baekjoon_2439(for_star_2).c.vcxproj -> C:\Users\skykc\source\repos\Baekjoon_2439(for_star_2).c\Debug\Baekjoon_2439(for_star_2).c.exe
