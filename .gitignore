@@ -1,7 +1,4 @@
-# Created by https://www.toptal.com/developers/gitignore/api/intellij+iml,oxygenxmleditor,intellij+all
-# Edit at https://www.toptal.com/developers/gitignore?templates=intellij+iml,oxygenxmleditor,intellij+all
-
-### Intellij+all ###
+### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -152,3 +149,12 @@ modules.xml
 /**/out/
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij+iml,oxygenxmleditor,intellij+all
+
+# add-more-file-by-skykch
+.gitignore
+git_toolbox_prj.xml
+jpa-buddy.xml
+misc.xml
+*.xml
+vcs.xml
+workspace.xml
