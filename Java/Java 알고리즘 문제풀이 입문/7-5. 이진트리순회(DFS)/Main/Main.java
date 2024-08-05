@@ -1,13 +1,13 @@
 
-class Node{
-    int data; // 번호 1, 2, ... , 7
-    Node lt, rt; // 왼쪽, 오른쪽 노드 주소(객체 주소를 저장)
-
-    public Node(int val){
-        data = val;
-        lt=rt=null;
-    }
-}
+//class Node{
+//    int data; // 번호 1, 2, ... , 7
+//    Node lt, rt; // 왼쪽, 오른쪽 노드 주소(객체 주소를 저장)
+//
+//    public Node(int val){
+//        data = val;
+//        lt=rt=null;
+//    }
+//}
 
 public class Main {
     Node root;
