@@ -11,8 +11,7 @@ public class Main {
     }
 
     private void DFS(int n) {
-        if(n == 1){
-            System.out.print(1);
+        if(n == 0){
             return;
         }
 
