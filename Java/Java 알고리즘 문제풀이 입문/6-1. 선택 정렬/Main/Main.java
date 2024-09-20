@@ -22,10 +22,14 @@ public class Main {
     private int[] solution(int n, int[] arr) {
         int[] answer = new int[n];
 
-        int index = 0;
-        int temp = 0;
         for(int i = 0; i < n; i++){
-
+            int idx = i;
+            for(int j = i + 1; j < n; j++){
+                if(arr[j] < arr[idx]) idx = j;
+            }
+            int temp = arr[i];
+            arr[i] = arr[idx];
+            arr[idx] = temp;
         }
 
         return answer;
