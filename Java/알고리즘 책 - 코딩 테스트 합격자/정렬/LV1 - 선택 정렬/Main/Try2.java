@@ -1,10 +1,10 @@
-public class Main {
+public class Try2 {
     public static void main(String[] args) {
-        Main T = new Main();
+        Try2 try2 = new Try2();
 
         int[] arr = { 7, 3, 2, 8, 9, 4, 6, 1, 5};
 
-        T.solution(arr);
+        try2.solution(arr);
 
         for (int i : arr) {
             System.out.println(i);
@@ -12,17 +12,20 @@ public class Main {
     }
 
     private void solution(int[] arr) {
-        for(int i = 0; i < arr.length - 1; i++){ // 인덱스
-            int min_index = i;
+
+        for(int i = 0; i < arr.length - 1; i++){
+            int index = i;
 
             for(int j = i + 1; j < arr.length; j++){
-                if(arr[j] < arr[min_index]){
-                    min_index = j;
+                if(arr[index] > arr[j]){
+                    index = j;
                 }
             }
 
-            swap(arr, i, min_index);
+            swap(arr, i, index);
         }
+
+
     }
 
     public void swap(int[] arr, int left, int right){
