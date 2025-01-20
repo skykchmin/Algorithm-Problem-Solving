@@ -66,10 +66,10 @@ public class Main {
             int half = length / 2;
 
             // 4등분
-            dfs(new Point(sy, sx), half);
-            dfs(new Point(sy, sx + half), half);
-            dfs(new Point(sy + half, sx), half);
-            dfs(new Point(sy + half, sx + half), half);
+            dfs(new Point(sy, sx), half); // 왼쪽 위
+            dfs(new Point(sy, sx + half), half); // 오른쪽 위
+            dfs(new Point(sy + half, sx), half); // 왼쪽 아래
+            dfs(new Point(sy + half, sx + half), half); // 오른쪽 아래
             System.out.print(")");
         } else {
             System.out.print(basis);
